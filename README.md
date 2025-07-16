@@ -17,6 +17,6 @@ when I firts made the app:
   Learned to create functions and handle user input;
   Learned the eval() funtion.
 When I upgraded the app:
-  Practiced querySelector;
   Practiced if...else statements;
-  Practiced boolean and logical operator.
+  Practiced boolean;
+  Learned isNaN() function.
