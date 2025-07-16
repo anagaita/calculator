@@ -1,13 +1,15 @@
-
 const calculatorScreen = document.getElementById('calculator-screen');
-const number = document.querySelector('.number')
 let resultDisplay = false
 
 function display(input) {
-    if (resultDisplay === true && input === number) { /* resets the screen after one calculation to start another if the key pressed is a number */
-        calculatorScreen.textContent = ''
+    if (resultDisplay) { /* resets the screen after one calculation to start another if the key pressed is a number */
+        if (!isNaN(input)) {
+            calculatorScreen.textContent = ''
+            calculatorScreen.textContent += input
+        } else {
+            calculatorScreen.textContent += input
+        }
         resultDisplay = false
-        calculatorScreen.textContent += input
     } else {
         calculatorScreen.textContent += input
     }
