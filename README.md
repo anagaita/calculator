@@ -1,6 +1,6 @@
 # Calculator
 This project is a simple calculator with a vintage look.
-Link: https://anagaita.github.io/Calculator/
+Link: https://anagaita.github.io/calculator/
 
 ## Tech used:
 HTML
